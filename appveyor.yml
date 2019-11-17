@@ -20,6 +20,6 @@ platform:
 configuration: Release
 test:
   assemblies:
-    - '**\*.tests.dll'
+    - '**\*Tests.dll'
 build_script:
   - ps: ./Build.ps1

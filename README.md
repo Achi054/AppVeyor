@@ -149,3 +149,5 @@ scripts that run after cloning repository
 install:
   - ps: choco install dotnetcore-sdk
 ```
+
+[![Build status](https://ci.appveyor.com/api/projects/status/dmyqc8jd1iq9gq65/branch/master?svg=true)](https://ci.appveyor.com/project/Achi054/appveyor/branch/master)

@@ -140,3 +140,12 @@ test:
       - A
       - B
 ```
+
+# Install apps
+
+scripts that run after cloning repository
+
+```
+install:
+  - ps: choco install dotnetcore-sdk
+```

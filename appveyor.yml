@@ -21,3 +21,5 @@ test:
     - '**\*Tests.dll'
 build_script:
   - ps: ./Build.ps1
+install:
+  - ps: choco install dotnetcore-sdk

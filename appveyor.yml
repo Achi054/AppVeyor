@@ -21,7 +21,5 @@ configuration: Release
 test:
   assemblies:
     - '**\*.tests.dll'
-before_build:
-  - dotnet restore **\*.sln
 build_script:
   - ps: ./Build.ps1

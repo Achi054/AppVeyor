@@ -14,7 +14,6 @@ branches:
 skip_tags: true
 cache:
   - packages -> **\packages.config
-platform: Any CPU
 platform:
   - x64
   - Any CPU
@@ -25,4 +24,4 @@ test:
 before_build:
   - dotnet restore **\*.sln
 build_script:
-  - ps: ./Build.ps1 
+  - ps: ./Build.ps1

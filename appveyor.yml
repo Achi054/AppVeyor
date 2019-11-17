@@ -14,9 +14,7 @@ branches:
 skip_tags: true
 cache:
   - packages -> **\packages.config
-platform:
-  - x64
-  - Any CPU
+platform: Any CPU
 configuration: Release
 test:
   assemblies:

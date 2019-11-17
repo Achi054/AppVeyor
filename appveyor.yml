@@ -22,4 +22,6 @@ test:
 build_script:
   - ps: ./Build.ps1
 install:
-  - ps: choco install dotnetcore-sdk
+  - ps: Set-Service wuauserv -StartupType Manual
+  - cinst -y php
+  - choco install dotnetcore-sdk
